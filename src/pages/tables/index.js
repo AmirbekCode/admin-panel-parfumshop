@@ -19,30 +19,41 @@ const MUITable = () => {
           </Link>
         </Typography>
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
-          <Card sx={{ maxWidth: 345 }}>
+          {products.map((item)=>{
+        return  <Grid item xs={2} sm={3} md={3}>  
+        <Card sx={{ maxWidth: 345 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
                 height="340"
-                image={`${products[0].imgUrl}`}
+                image={`${item.imgUrl}`}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  {products[0].productName}
+                  {item.productName}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                {products[0].description}
+                {item.description}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                {item.price}.000 som
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                {item.count} dona
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Yakunlash
+                Qabul Qilish
               </Button>
             </CardActions>
           </Card>
+          </Grid>         
+          })}
+
       </Grid>
 
     </Grid>
