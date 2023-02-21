@@ -65,33 +65,7 @@ const Divider = styled(MuiDivider)(({ theme }) => ({
 
 const DepositWithdraw = () => {
   return (
-    <Card sx={{ display: 'flex', justifyContent: 'space-between', flexDirection: ['column', 'column', 'row'] }}>
-      <Box sx={{ width: '100%' }}>
-        <CardHeader
-          title='Deposit'
-          sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
-          action={<Typography variant='caption'>View All</Typography>}
-          titleTypographyProps={{
-            variant: 'h6',
-            sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' }
-          }}
-        />
-      </Box>
-
-      <Divider flexItem />
-
-      <Box sx={{ width: '100%' }}>
-        <CardHeader
-          title='Withdraw'
-          sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
-          action={<Typography variant='caption'>View All</Typography>}
-          titleTypographyProps={{
-            variant: 'h6',
-            sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' }
-          }}
-        />
-      </Box>
-    </Card>
+    <></>
   )
 }
 

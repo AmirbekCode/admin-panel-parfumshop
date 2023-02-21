@@ -17,27 +17,21 @@ import AccountOutline from 'mdi-material-ui/AccountOutline'
 
 const salesData = [
   {
-    stats: '245k',
-    title: 'Sales',
-    color: 'primary',
-    icon: <TrendingUp sx={{ fontSize: '1.75rem' }} />
-  },
-  {
     stats: '12.5k',
-    title: 'Customers',
+    title: 'Foydalanuvchilar',
     color: 'success',
     icon: <AccountOutline sx={{ fontSize: '1.75rem' }} />
   },
   {
     stats: '1.54k',
     color: 'warning',
-    title: 'Products',
+    title: 'Maxsulotlar',
     icon: <CellphoneLink sx={{ fontSize: '1.75rem' }} />
   },
   {
     stats: '$88k',
     color: 'info',
-    title: 'Revenue',
+    title: 'Jami',
     icon: <CurrencyUsd sx={{ fontSize: '1.75rem' }} />
   }
 ]
@@ -72,7 +66,7 @@ const StatisticsCard = () => {
   return (
     <Card>
       <CardHeader
-        title='Statistics Card'
+        title='Statistika bo`limi'
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
             <DotsVertical />

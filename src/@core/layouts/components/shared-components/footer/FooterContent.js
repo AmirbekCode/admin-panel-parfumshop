@@ -17,7 +17,7 @@ const FooterContent = () => {
         </Box>
         {` by `}
         <Link target='_blank' href='https://themeselection.com/'>
-          ThemeSelection
+          AmirbekDEV
         </Link>
       </Typography>
       {hidden ? null : (

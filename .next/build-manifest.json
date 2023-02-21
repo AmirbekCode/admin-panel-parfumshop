@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/account-settings": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/account-settings.js"
-    ],
     "/pages/login": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

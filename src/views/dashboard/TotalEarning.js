@@ -40,7 +40,7 @@ const TotalEarning = () => {
         </Box>
 
         <Typography component='p' variant='caption' sx={{ mb: 10 }}>
-          Compared to $84,325 last year
+          O'tgan oyga qaraganda
         </Typography>
       </CardContent>
     </Card>
