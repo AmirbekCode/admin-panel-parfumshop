@@ -18,10 +18,16 @@ const navigation = () => {
       path: '/'
     },
     {
+      title: 'Buyurtmalar',
+      icon: Table,
+      path: '/tables'
+    },
+    {
       title: 'Account Sozlamasi',
       icon: AccountCogOutline,
       path: '/account-settings'
     },
+    
     {
       sectionTitle: 'Pages'
     },
@@ -60,11 +66,6 @@ const navigation = () => {
       title: 'Cards',
       icon: CreditCardOutline,
       path: '/cards'
-    },
-    {
-      title: 'Tables',
-      icon: Table,
-      path: '/tables'
     },
     {
       icon: CubeOutline,

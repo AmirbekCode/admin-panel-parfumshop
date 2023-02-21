@@ -16,7 +16,7 @@ const FooterContent = () => {
           ❤️
         </Box>
         {` by `}
-        <Link target='_blank' href='https://themeselection.com/'>
+        <Link target='_blank' href='https://github.com/AmirbekCode/admin-panel-parfumshop'>
           AmirbekDEV
         </Link>
       </Typography> 
