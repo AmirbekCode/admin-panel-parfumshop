@@ -32,7 +32,7 @@ const navigation = () => {
       openInNewTab: true
     },
     {
-      title: 'Register',
+      title: 'Registratsiya',
       icon: AccountPlusOutline,
       path: '/pages/register',
       openInNewTab: true
