@@ -1,18 +1,6 @@
 {
-  "/401": "pages/401.html",
-  "/404": "pages/404.html",
-  "/500": "pages/500.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/account-settings": "pages/account-settings.html",
-  "/cards": "pages/cards.html",
-  "/form-layouts": "pages/form-layouts.html",
-  "/icons": "pages/icons.html",
-  "/": "pages/index.html",
-  "/pages/error": "pages/pages/error.html",
-  "/pages/login": "pages/pages/login.html",
-  "/pages/register": "pages/pages/register.html",
-  "/tables": "pages/tables.html",
-  "/typography": "pages/typography.html",
-  "/_error": "pages/_error.js"
+  "/_error": "pages/_error.js",
+  "/": "pages/index.js"
 }
